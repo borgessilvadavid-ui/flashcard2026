@@ -52,10 +52,21 @@ footer {
 
 .cartao-interno {
     position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.cartao:hover .cartao-interno {
+    transform: rotayeY(180deg)
 }
 
 .catao-frente, .cartao-verso {
     position: relative;
     border-radius: 12px;
     box-shadow: 0 6px rgb(17, 17, 17);
+    backface-visibility: hidden;
+}
+
+.cartao-verso{
+    transform: rotateY(180deg);
 }
