@@ -43,3 +43,19 @@ h1 {
     color: antiquewhite;
     font-size: 24px;
 }
+
+footer {
+    background-color: rgb(20, 0, 39);
+    padding: 15px 25;
+    color:ghostwhite;
+}
+
+.cartao-interno {
+    position: relative;
+}
+
+.catao-frente, .cartao-verso {
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 6px rgb(17, 17, 17);
+}
